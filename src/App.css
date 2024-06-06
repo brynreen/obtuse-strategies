@@ -4,3 +4,35 @@
   padding: 2rem;
   text-align: center;
 }
+
+h1 {
+  margin-bottom: 64px;
+}
+
+button {
+  background-color: #696969;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  height: 32px;
+  padding: 0;
+  transition: 100ms all ease-in-out;
+  width: 120px;
+
+  @media screen and (-ms-high-contrast: active) {
+    border: 2px solid currentcolor;
+  }
+}
+
+button:hover {
+  background-color: #808080;
+}
+
+button:active {
+  background-color: #919191;
+}
+
+.strategy {
+  margin-bottom: 64px;
+}
